@@ -57,7 +57,7 @@ int _main(void) {
 ```
 <br>
 
-## Example of Payload 
+## Example of SPRX 
 ```c
 bool daemonExited  = false;
 bool payloadLoaded = false;
