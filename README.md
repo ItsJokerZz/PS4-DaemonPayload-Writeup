@@ -79,3 +79,6 @@ extern "C" void mainFunction() {
 ```
 <br>
 
+### Something to note...
+If you do not set daemonExited to true, you wont be able to load another payload until unloaded/exited. You must load any others beforehand.
+You wont be able to access any kernel or process memory without your own methods and you cannot access other background processes.
